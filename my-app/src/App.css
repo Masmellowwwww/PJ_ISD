@@ -1,0 +1,221 @@
+body {
+   background-color: #000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+p, h1 {
+  color: #fff;
+}
+h1 {
+  font-size: 30px;
+
+}
+.H1F {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+nav {
+  background: linear-gradient(to right, #112A56 0%, #1D2760 25%, #421B7E 65%, #8705B6 100%);
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: 130px;
+}
+
+.Text {
+  flex-basis: 40%;
+}
+
+.image-container {
+  flex-basis: 60%;
+}
+
+.image {
+  width: 100%; 
+}
+
+
+.btn {
+  background-color: #8705B6;
+  color: #fff;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.btnupload {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  margin-top: 90px;
+  background-color: rgb(255, 255, 255, 15%);
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 50px;
+}
+
+.detailfeature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AddPhoto , .AddVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  margin: 50px;
+  border-radius: 10px;
+padding: 20px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+h3 {
+  border-width: 5px;
+  border-color: #0077B6;
+  border-radius: 30px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.goBack{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 20px;
+  color: #000;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255, 80%);
+  height: 35px;
+  border-radius: 17.5px;
+  width: 35px;
+}
+.conGetStart{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.FrameAdd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  border-width: 2px;
+  border-color: #CF7DED;
+  border-radius: 30px;
+  border-style: dashed;
+  padding: 50px;
+  margin: 40px;
+  margin-top: 90px;
+  flex-basis: 40%;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  margin-top: 10px;
+flex-basis: 60%;
+}
+
+.tablePlate {
+  background-color: #8705B6;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.detailPlate {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+align-items: center;
+
+}
+thead {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+th {
+  color: #fff;
+  font-size: 20px;
+}
+
+td {
+  color: #fff;
+}
+
+.Seacrh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+padding: 5px;
+margin-bottom: 10px;
+
+}
+
+.inputText {
+  padding: 10px;
+  border: none;
+outline: none;
+  width: 100%;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* semi-transparent black */
+  z-index: 9999; /* Make sure it's above other elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
